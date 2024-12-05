@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "ChatApp",
+    "slug": "chatapp",
+    "scheme": "chatapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/itech_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ru3ll.itechApp"
+    },
+    "android": {
+      "package": "com.ru3ll.itechApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/itech_logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a2a22217-c22c-4d8f-a2c4-f2c7267d0940"
+      }
+    },
+    "owner": "ru3ll"
+  }
+}
